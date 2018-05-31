@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+#VS2010 files
+*.ilk
+*.pdb
+*.sdf
+*.suo
+Debug/
+*.ipch
