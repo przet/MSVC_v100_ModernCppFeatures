@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MSCV_v100_ModernCppFeatures
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MSVC_v100_Algorithms", "MSVC_v100_Algorithms\MSVC_v100_Algorithms.vcxproj", "{D3FD7AC1-978D-47E0-A026-CC26DB8D9E8C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MSVC_v100_Numeric", "MSVC_v100_Numeric\MSVC_v100_Numeric.vcxproj", "{E16C7714-E9BD-4DC9-95F3-F59E4E746A02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{D3FD7AC1-978D-47E0-A026-CC26DB8D9E8C}.Debug|Win32.Build.0 = Debug|Win32
 		{D3FD7AC1-978D-47E0-A026-CC26DB8D9E8C}.Release|Win32.ActiveCfg = Release|Win32
 		{D3FD7AC1-978D-47E0-A026-CC26DB8D9E8C}.Release|Win32.Build.0 = Release|Win32
+		{E16C7714-E9BD-4DC9-95F3-F59E4E746A02}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E16C7714-E9BD-4DC9-95F3-F59E4E746A02}.Debug|Win32.Build.0 = Debug|Win32
+		{E16C7714-E9BD-4DC9-95F3-F59E4E746A02}.Release|Win32.ActiveCfg = Release|Win32
+		{E16C7714-E9BD-4DC9-95F3-F59E4E746A02}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
