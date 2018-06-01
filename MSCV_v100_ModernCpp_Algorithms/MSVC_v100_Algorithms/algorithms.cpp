@@ -4,6 +4,7 @@
 #include <iostream>
 
 
+
 bool isOdd(int i)
 {
    return i%2;
@@ -11,6 +12,15 @@ bool isOdd(int i)
 
 int main()
 {
+    //TODO make these preprocessor directive
+    if(_MSC_VER > 1600) //the VS2010 MSVC v100 compiler
+        std::cerr<<
+        "\n---------------------------------------------"
+        "\n!!Warning: using a newer compiler than in the\n"
+        "MSVC v100 toolset (found in VS2010)\n"
+        "----------------------------------------------"
+        "\n" <<std::endl;
+
 	//first let's see what C++11 algos work with MSVC v100
 
     //------------------------------------------------------------------------------
@@ -210,7 +220,7 @@ int main()
 	//std::minmax and std::minmax_element
 	//-------------------
 
-    
+
 
 
 
